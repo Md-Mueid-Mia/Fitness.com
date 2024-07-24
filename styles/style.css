@@ -642,6 +642,10 @@ hr{
 /* small device responsive media quary starts here*/
 
 @media screen and (max-width: 576px) {
+    body, main, footer{
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
     header{
         width: 100%;
         height: 1190px;
