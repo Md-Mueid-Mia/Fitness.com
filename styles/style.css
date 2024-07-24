@@ -547,10 +547,7 @@ td, th{
     margin: 0 auto;
     width: 327px;
     height: 272px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    -ms-border-radius: 16px;
-    -o-border-radius: 16px;
+   
 }
 .cards-title {
     font-size: 1.25rem;
@@ -688,17 +685,16 @@ hr{
         font-weight: 400;
     }
     .banner-content button {
-        padding-left: 42px;
+        width: 174px;
         display: inline-block;
-        padding: 16px 40px;
-        margin-left: 44px;
+        padding: 16px;
         font-size: 1.1rem;
         font-weight: 600;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        justify-items: start;
     }
-    /* .banner-content button:last-child{
-        margin-left: 0;
-    }
-     */
     .club{display: none;}
     .banner-image img{
         width: 100%;
@@ -709,7 +705,7 @@ hr{
     }
     .banner-image .card-2 {
         width: 165px;
-        left: 234px;
+        left: 225px;
         top: 55px;
         padding: 12px 0px;
     }
@@ -888,24 +884,5 @@ hr{
         font-size: 70px;
         font-weight: 800;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
-
-
-
-
-
-}
