@@ -163,7 +163,7 @@ body{
 }
 .banner-image .text {
     position: absolute;
-    border-radius: 12px;
+    border-radius: 18px;
     backdrop-filter: blur(18px);
     background: rgba(48, 48, 48, 0.301);
     width: 206px;
@@ -171,6 +171,10 @@ body{
     text-align: left;
     top: 429px;
     border: 1px solid rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
 }
 .banner-image .text .card-1{
     padding-left: 15px;
@@ -181,7 +185,7 @@ body{
 
 .banner-image .card-2 {
     position: absolute;
-    border-radius: 12px;
+    border-radius: 18px;
     backdrop-filter: blur(18px);
     background: rgba(48, 48, 48, 0.301);
     width: 206px;
@@ -190,6 +194,10 @@ body{
     top: 114px;
     right: -30px;
     border: 1px solid rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
 }
 .banner-image .card-2 .number-2{
     font-size: 2.5rem;
@@ -563,7 +571,8 @@ td, th{
     text-align: center;
     margin-bottom: 40px;
 }
-.team-content{
+.team-content {
+    padding: 0px 10px 0px 10px;
     max-width: 1060px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 16px;
@@ -588,7 +597,7 @@ td, th{
     margin: 0 auto;
     width: 327px;
     height: 272px;
-   
+    border-radius: 17px;
 }
 .cards-title {
     font-size: 1.25rem;
@@ -895,6 +904,10 @@ hr{
     .team-comtainer{
         margin: 66px 0px;
     }
+    .team-content{
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
     .team-title{
         font-size: 2rem;
         font-weight: 900;
@@ -907,6 +920,12 @@ hr{
     .row-3, .row-4{
         display: flex;
         flex-direction: column;
+    }
+    .row-3 .cards{
+        padding-bottom: 0px;
+    }
+    .row-3 .cards:last-child{
+        padding-bottom: 22px;
     }
     .footer-section{
         padding: 0px 20px;
