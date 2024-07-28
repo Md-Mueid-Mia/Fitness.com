@@ -64,6 +64,7 @@ ul, li, a{
 }
 body{
     background-color: #000;
+    margin: 0 auto;
 }
 /* Common Css Style ends here */
 
@@ -222,7 +223,8 @@ body{
     margin-bottom: 58px;
     line-height: 1.5rem;
 }
-.card img{
+.card img {
+    border: 4px solid rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -322,12 +324,53 @@ body{
     width: 100%;
     height: 100%;
     position: absolute;
-    opacity: 0.7;
 }
-.box-title-1{
+.overlay-1 {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(6, 255, 210, 0.3);
+}
+.overlay-2 {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    background-color:  rgba(255, 0, 0, 0.3);
+}
+.overlay-3{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay-4{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay-5 {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(66, 255, 0, 0.3);
+}
+.overlay-6 {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(0, 71, 255, 0.3);
+}
+.box-title-1 {
     position: absolute;
     left: 25px;
-    top: 190px;
+    top: 180px;
     font-size: 0.8rem;
     font-weight: 500;
     line-height: 1.1rem;
@@ -339,7 +382,6 @@ body{
     width: 100%;
     height: 100%;
     position: absolute;
-    opacity: 0.8;
 }
 .box-title-2{
     position: absolute;
@@ -358,12 +400,11 @@ body{
     width: 100%;
     height: 100%;
     position: absolute;
-    opacity: 0.6;
 }
 .box-title-3{
     position: absolute;
     left: 25px;
-    top: 190px;
+    top: 180px;
     font-size: 0.8rem;
     font-weight: 500;
     line-height: 1.1rem;
@@ -388,7 +429,7 @@ body{
 .box-title-5, .box-title-6{
     position: absolute;
     left: 25px;
-    top: 190px;
+    top: 180px;
     font-size: 0.8rem;
     font-weight: 500;
     line-height: 1.1rem;
@@ -555,7 +596,7 @@ td, th{
     line-height: 120%;
     position: absolute;
     top: 230px;
-    left: 35px;
+    left: 20px;
 }
 .cards-description {
     font-size: 0.8rem;
@@ -563,7 +604,7 @@ td, th{
     line-height: 120%;
     position: absolute;
     top: 255px;
-    left: 35px;
+    left: 22px;
 }
 .row-4 .cards{
     position: relative;
@@ -571,12 +612,12 @@ td, th{
 }
 .row-4 h4{
     position: absolute;
-    left: 35px;
+    left: 20px;
     top: 210px;
 }
 .row-4 p{
     position: absolute;
-    left: 35px;
+    left: 22px;
     top: 236px;
 }
 /* team section styles ends here  */
@@ -786,7 +827,8 @@ hr{
         font-size: 32px;
         font-weight: 900;
     }
-    .training-description{
+    .training-description {
+        width: 331px;
         font-size: 14px;
         font-weight: 400;
     }
@@ -838,7 +880,8 @@ hr{
         margin-bottom: 15px;
         padding-bottom: 0;
     }
-    .form-description{
+    .form-description {
+        width: 315px;
         font-size: 0.8rem;
         font-weight: 400;
     }
@@ -880,7 +923,8 @@ hr{
         font-size: 0.8rem;
         font-weight: 400;
     }
-    .get-started{
+    .get-started {
+        margin-top: 20px;
         margin-bottom: 0;
     }
     .footer-title{
