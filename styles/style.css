@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 @font-face {
@@ -38,6 +39,7 @@
     background: rgb(230, 83, 60);
     color: #fff;
     border: none;
+    margin-bottom: 16px;
     font-size: 1.2rem;
     font-family: "Inter", sans-serif;
     cursor: pointer;
