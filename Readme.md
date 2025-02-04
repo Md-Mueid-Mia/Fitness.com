@@ -22,8 +22,7 @@
 
 ### 📱 Screenshots
 <div align="center">
-  <img src="./screenshots/desktop.png" alt="Desktop View" width="600"/>
-  <img src="./screenshots/mobile.png" alt="Mobile View" width="200"/>
+  <img src="https://i.ibb.co.com/dJkTHdN7/fitness.png" alt="Desktop View" width="600"/>
 </div>
 
 ### 🚀 Key Features
