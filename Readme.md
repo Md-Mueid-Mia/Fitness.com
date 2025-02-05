@@ -1,6 +1,6 @@
 <div align="center">
   <h1>🏋️‍♂️ Fitness Website</h1>
-  <p>A modern fitness website built with HTML5 and CSS3</p>
+  <p>Welcome to the Body Fitness Web Application! This platform is dedicated to helping users achieve their fitness goals through a variety of resources, including workout videos, exercise tutorials, and health content.</p>
 </div>
 
 ---
